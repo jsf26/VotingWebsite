@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="shortcut icon" href="images/ballotblue.svg" alt="Logo">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+
+</head>
+
+<header>
+    <div id="header">
+        <a href="index.html">
+            <img src="images/ballotblue.svg" alt="Logo">
+        </a>
+
+
+    </div>
+</header>
+<style>
+    header img {
+        margin-left: -83%;
+
+    }
+</style>
+
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+    <ul>
+        <li><a href="interiorPages/vote.html">How to Vote</a></li>
+            <ul>
+                <li><a href="interiorPages/register.html">How to Register</a></li>
+            </ul>
+        <li><a href="interiorPages/importance.html">Importance of Voting</a></li>
+        <li><a href="interiorPages/history.html">History of Voting</a></li>
+        <li><a href="interiorPages/resource.html">Resources in the Area</a></li>
+        <li><a href="interiorPages/contact.html">Contact</a></li>
+    </ul>
+</nav>
+<style>
+    header{
+        /*padding-bottom: 40px;*/
+        float: left;
+    }
+
+
+    img{
+        display:inline-block;
+        height:150px;
+        margin: 0 auto;
+    }
+    body {
+        background-image: url('https://bostonglobe-prod.cdn.arcpublishing.com/resizer/aBt4JlLKdd0KoTs0gwB-xUGXuqI=/1440x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/KPNXFFSXEVCZNGTHKWMNIEJGOE.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+         }
+    
+</style>
+
+
+
+
+
+
+
+
+
+<!--</DEVELOPER: Jada Forde, IS117-001, Fall 2020>-->
+<footer>
+    <p> Copyright &copy; 2020 Jada Forde Privacy Term </p>
+</footer>
+
+</html>
