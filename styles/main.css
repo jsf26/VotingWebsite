@@ -80,10 +80,6 @@ img{
         font-weight: bold;
     }
 
-    #nav_menu a.current {
-        color: red;
-    }
-
     #nav_menu ul ul {
         width: 100%;
         display: none;
@@ -183,7 +179,7 @@ aside {
 }
 
 
-    footer {
+    .footer {
         background-color: deepskyblue;
         clear: both;
         border:3px solid black;
