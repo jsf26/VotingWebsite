@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc8b56ee-7bfc-48ef-a7a7-28260756eef9" name="Default Changelist" comment="Adding HTML and CSS">
-      <change beforePath="$PROJECT_DIR$/interiorPages/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/interiorPages/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,7 @@
       <workItem from="1606932511758" duration="37836000" />
       <workItem from="1607053111800" duration="2498000" />
       <workItem from="1607055643725" duration="2402000" />
-      <workItem from="1607345561031" duration="6285000" />
+      <workItem from="1607345561031" duration="6452000" />
     </task>
     <task id="LOCAL-00001" summary="Adding HTML and CSS">
       <created>1607057699437</created>
@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607358721686</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding HTML and CSS">
+      <created>1607358849823</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607358849823</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,10 +211,10 @@
       <screen x="62" y="0" width="1218" height="720" />
     </state>
     <state width="1197" height="190" key="GridCell.Tab.2.right/62.0.1218.720@62.0.1218.720" timestamp="1606891423273" />
-    <state x="264" y="93" key="Vcs.Push.Dialog.v2" timestamp="1607358742163">
+    <state x="264" y="93" key="Vcs.Push.Dialog.v2" timestamp="1607358855372">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state x="264" y="93" key="Vcs.Push.Dialog.v2/62.0.1218.720@62.0.1218.720" timestamp="1607358742163" />
+    <state x="264" y="93" key="Vcs.Push.Dialog.v2/62.0.1218.720@62.0.1218.720" timestamp="1607358855372" />
     <state x="328" y="161" key="run.anything.popup" timestamp="1606966769283">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
