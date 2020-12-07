@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="../images/ballotblue.svg" alt="Logo">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="../js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+</head>
+<body>
+<header>
+    <div id="header">
+        <a href="../index.html">
+            <img src="../images/ballotblue.svg" alt="Logo">
+        </a>
+    </div>
+</header>
+</body>
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+    <ul>
+        <li><a href="vote.html">How to Vote</a></li>
+            <ul>
+                <li><a href="register.html">How to Register</a></li>
+            </ul>
+        <li><a href="importance.html">Importance of Voting</a></li>
+        <li><a href="history.html">History of Voting</a></li>
+        <li><a href="resource.html">Resources in the Area</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<style>
+    body {}
+    * {box-sizing: border-box;}
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: deepskyblue;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: deepskyblue;
+    }
+
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+</style>
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+    <form action="/action_page.php">
+        <label for="name"> Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" email="email" placeholder="Enter your email address..">
+
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+
+</body>
+
+
+<footer>
+    <p> Copyright &copy; <script>document.write(new Date().getFullYear());</script> Jada Forde Privacy Term </p>
+</footer>
+</html>
